@@ -1,10 +1,10 @@
 # ACC_Assignment_01
 
-# 1. Get all the user
+## 1. Get all the user
 
 https://acc-assignment-01.onrender.com/api/v1/users?page=1&limit=10
 
-# 2. Save new user
+## 2. Save new user
 
 https://acc-assignment-01.onrender.com/api/v1/users
 
@@ -16,15 +16,15 @@ body: {
 "photoUrl": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8dXNlciUyMHByb2ZpbGV8ZW58MHx8MHx8&w=1000&q=80"
 }
 
-# 3. Delete a user
+## 3. Delete a user
 
 https://acc-assignment-01.onrender.com/api/v1/users/6
 
-# 4. Get a random user information
+## 4. Get a random user information
 
 https://acc-assignment-01.onrender.com/api/v1/users/random
 
-# 5. Update a user
+## 5. Update a user
 
 https://acc-assignment-01.onrender.com/api/v1/users/4
 
@@ -35,7 +35,7 @@ body:
 "gender":"female"
 }
 
-# 6. Update list/multiple of users information
+## 6. Update list/multiple of users information
 
 https://acc-assignment-01.onrender.com/api/v1/users/update/bulk-update
 
