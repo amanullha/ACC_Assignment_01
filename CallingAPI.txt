@@ -1,11 +1,11 @@
 1. Get all the user
 
- http://localhost:5000/api/v1/users?page=1&limit=10
+ https://acc-assignment-01.onrender.com/api/v1/users?page=1&limit=10
 
 
 2. Save new user
 
-http://localhost:5000/api/v1/users
+https://acc-assignment-01.onrender.com/api/v1/users
 
 body: {
     "gender": "female",
@@ -17,15 +17,15 @@ body: {
 
 3. Delete a user
 
-http://localhost:5000/api/v1/users/6
+https://acc-assignment-01.onrender.com/api/v1/users/6
 
 4. Get a random user information 
 
- http://localhost:5000/api/v1/users/random
+ https://acc-assignment-01.onrender.com/api/v1/users/random
 
 5.  Update a user
 
- http://localhost:5000/api/v1/users/4
+ https://acc-assignment-01.onrender.com/api/v1/users/4
 
 body: 
     {
@@ -37,7 +37,7 @@ body:
 
 6.  Update list/multiple of users information
 
- http://localhost:5000/api/v1/users/update/bulk-update
+ https://acc-assignment-01.onrender.com/api/v1/users/update/bulk-update
 
 
 body: [
