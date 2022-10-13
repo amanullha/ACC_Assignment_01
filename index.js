@@ -1,8 +1,10 @@
 const express = require('express');
 const cors = require('cors');
 const PORT = process.env.PORT || 5000;
+
 const usersRoutes = require('./routes/v1/users.route');
 const { errorHandler } = require('./middleware/errorHandler');
+require('dotenv').config()
 
 const app = express();
 
@@ -54,8 +56,8 @@ app.get('/', (req, res) => {
 app.all('*', (req, res) => {
 
     // res.send("No route found");
-// res.render('noRouteFound')
-res.render('noRouteFound.ejs',{text:'No Route Found!!'})
+    // res.render('noRouteFound')
+    res.render('noRouteFound.ejs', { text: 'No Route Found!!' })
 
 })
 
